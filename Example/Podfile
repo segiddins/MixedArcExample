@@ -3,6 +3,4 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'MixedArcExample', :exclusive => true do
   pod "MixedArcExample", :path => "../"
-
-  
 end

@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B3878914D9A9BC7E234054B /* Pods-MixedArcExample-MixedArcExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD721AB44D6B2DD67021391 /* Pods-MixedArcExample-MixedArcExample-dummy.m */; };
+		3CFFAF700D0722521D3A4126 /* SEGArc.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E447D25837AE1056B546FC /* SEGArc.h */; };
+		4D045BEE1AB4072EB6DA6EB5 /* SEGNoArc.m in Sources */ = {isa = PBXBuildFile; fileRef = EAED48382A92975A658A6CCC /* SEGNoArc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69D57BF2EAF98CEDA87EAF7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43019D4251F917387662DECF /* Foundation.framework */; };
+		A72A6A973EF09348CBB9F812 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43019D4251F917387662DECF /* Foundation.framework */; };
+		B1D3FCCDFFD615C2FD88B865 /* SEGArc.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4054F0D1CB8ED7C30B0A22 /* SEGArc.m */; };
+		D7E614C87B892314323E62EC /* Pods-MixedArcExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E68D2397940291A03BA194BB /* Pods-MixedArcExample-dummy.m */; };
+		E967F3D0FBDC65F8852C7D4D /* SEGNoArc.h in Headers */ = {isa = PBXBuildFile; fileRef = 954485DC89262E5AD742E61E /* SEGNoArc.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABE848F0C7FA474D878EFD12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1332300C4E09CCCCF66E352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E492FC6096ECECE512C8836E;
+			remoteInfo = MixedArcExample;
+		};
+		F6456402037C19BC41459133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1332300C4E09CCCCF66E352D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF7951A31970ABFA22650799;
+			remoteInfo = "Pods-MixedArcExample-MixedArcExample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0794D5815A1C66201953582E /* Pods-MixedArcExample-MixedArcExample-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MixedArcExample-MixedArcExample-Private.xcconfig"; sourceTree = "<group>"; };
+		1287204446723AA5F4104FC1 /* Pods-MixedArcExample-MixedArcExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MixedArcExample-MixedArcExample.xcconfig"; sourceTree = "<group>"; };
+		14929904F39CF487D5C08A3E /* Pods-MixedArcExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MixedArcExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		316914D0C11B38144F74DDBC /* Pods-MixedArcExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MixedArcExample.release.xcconfig"; sourceTree = "<group>"; };
+		32E447D25837AE1056B546FC /* SEGArc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGArc.h; path = Pod/Classes/SEGArc.h; sourceTree = "<group>"; };
+		43019D4251F917387662DECF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45AF680233D31E62A28C9065 /* Pods-MixedArcExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MixedArcExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		4EC259746C79283B997346E8 /* Pods-MixedArcExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MixedArcExample-resources.sh"; sourceTree = "<group>"; };
+		5B5BA7B23BEE0277251ED095 /* Pods-MixedArcExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MixedArcExample.debug.xcconfig"; sourceTree = "<group>"; };
+		5EB3197D3E9C59066F28FFBF /* Pods-MixedArcExample-MixedArcExample-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MixedArcExample-MixedArcExample-prefix.pch"; sourceTree = "<group>"; };
+		731B187EF82209727F1FDC46 /* Pods-MixedArcExample-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MixedArcExample-environment.h"; sourceTree = "<group>"; };
+		7951F2A3C4318C92C0962AA4 /* MixedArcExample.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MixedArcExample.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		88830A7C61EC1A558E5B4909 /* libPods-MixedArcExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixedArcExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		954485DC89262E5AD742E61E /* SEGNoArc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SEGNoArc.h; path = Pod/Classes/SEGNoArc.h; sourceTree = "<group>"; };
+		A66551A329B31F37BB0909A5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AAD721AB44D6B2DD67021391 /* Pods-MixedArcExample-MixedArcExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MixedArcExample-MixedArcExample-dummy.m"; sourceTree = "<group>"; };
+		BD4054F0D1CB8ED7C30B0A22 /* SEGArc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGArc.m; path = Pod/Classes/SEGArc.m; sourceTree = "<group>"; };
+		C9281F1EDE1CD107B1DD24D8 /* libPods-MixedArcExample-MixedArcExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixedArcExample-MixedArcExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68D2397940291A03BA194BB /* Pods-MixedArcExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MixedArcExample-dummy.m"; sourceTree = "<group>"; };
+		EAED48382A92975A658A6CCC /* SEGNoArc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SEGNoArc.m; path = Pod/Classes/SEGNoArc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE2AB81E8880D06BA8417CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D57BF2EAF98CEDA87EAF7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F75A9CF878CFD0791EFAADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72A6A973EF09348CBB9F812 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86EF6D2E52DD7718716BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E15567957BE46BD75ADF1F /* Pods-MixedArcExample */ = {
+			isa = PBXGroup;
+			children = (
+				14929904F39CF487D5C08A3E /* Pods-MixedArcExample-acknowledgements.markdown */,
+				45AF680233D31E62A28C9065 /* Pods-MixedArcExample-acknowledgements.plist */,
+				E68D2397940291A03BA194BB /* Pods-MixedArcExample-dummy.m */,
+				731B187EF82209727F1FDC46 /* Pods-MixedArcExample-environment.h */,
+				4EC259746C79283B997346E8 /* Pods-MixedArcExample-resources.sh */,
+				5B5BA7B23BEE0277251ED095 /* Pods-MixedArcExample.debug.xcconfig */,
+				316914D0C11B38144F74DDBC /* Pods-MixedArcExample.release.xcconfig */,
+			);
+			name = "Pods-MixedArcExample";
+			path = "Target Support Files/Pods-MixedArcExample";
+			sourceTree = "<group>";
+		};
+		3D10DC449E28C234A9EF94FE = {
+			isa = PBXGroup;
+			children = (
+				A66551A329B31F37BB0909A5 /* Podfile */,
+				C489E010C0AE775346F70867 /* Development Pods */,
+				C3A99B2D2420161D5283668A /* Frameworks */,
+				98CCA676DF49C45F8127BD80 /* Products */,
+				A56354BCC23EB0B617E6FE48 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE9AD5F58FD2842B1244F91 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				43019D4251F917387662DECF /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		98CCA676DF49C45F8127BD80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7951F2A3C4318C92C0962AA4 /* MixedArcExample.bundle */,
+				88830A7C61EC1A558E5B4909 /* libPods-MixedArcExample.a */,
+				C9281F1EDE1CD107B1DD24D8 /* libPods-MixedArcExample-MixedArcExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A56354BCC23EB0B617E6FE48 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06E15567957BE46BD75ADF1F /* Pods-MixedArcExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B9D9E0392EB363DCC0889C54 /* MixedArcExample */ = {
+			isa = PBXGroup;
+			children = (
+				32E447D25837AE1056B546FC /* SEGArc.h */,
+				BD4054F0D1CB8ED7C30B0A22 /* SEGArc.m */,
+				954485DC89262E5AD742E61E /* SEGNoArc.h */,
+				EAED48382A92975A658A6CCC /* SEGNoArc.m */,
+				D8F5595A95B0020B863F5881 /* Support Files */,
+			);
+			name = MixedArcExample;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C3A99B2D2420161D5283668A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE9AD5F58FD2842B1244F91 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C489E010C0AE775346F70867 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9D9E0392EB363DCC0889C54 /* MixedArcExample */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D8F5595A95B0020B863F5881 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1287204446723AA5F4104FC1 /* Pods-MixedArcExample-MixedArcExample.xcconfig */,
+				0794D5815A1C66201953582E /* Pods-MixedArcExample-MixedArcExample-Private.xcconfig */,
+				AAD721AB44D6B2DD67021391 /* Pods-MixedArcExample-MixedArcExample-dummy.m */,
+				5EB3197D3E9C59066F28FFBF /* Pods-MixedArcExample-MixedArcExample-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-MixedArcExample-MixedArcExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		700146C3F11FAB6253B78729 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFFAF700D0722521D3A4126 /* SEGArc.h in Headers */,
+				E967F3D0FBDC65F8852C7D4D /* SEGNoArc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AF7951A31970ABFA22650799 /* Pods-MixedArcExample-MixedArcExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF54421E13E1D50F370DEAC0 /* Build configuration list for PBXNativeTarget "Pods-MixedArcExample-MixedArcExample" */;
+			buildPhases = (
+				4CFF4909B6E46F1561179EAD /* Sources */,
+				2EE2AB81E8880D06BA8417CD /* Frameworks */,
+				700146C3F11FAB6253B78729 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3CF814198A8624A2883288E /* PBXTargetDependency */,
+			);
+			name = "Pods-MixedArcExample-MixedArcExample";
+			productName = "Pods-MixedArcExample-MixedArcExample";
+			productReference = C9281F1EDE1CD107B1DD24D8 /* libPods-MixedArcExample-MixedArcExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E492FC6096ECECE512C8836E /* MixedArcExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98368EF6B1A8949EAA2D63D8 /* Build configuration list for PBXNativeTarget "MixedArcExample" */;
+			buildPhases = (
+				D7839A5FB998C98DB063A8D9 /* Sources */,
+				E86EF6D2E52DD7718716BFE0 /* Frameworks */,
+				27D7E1A5EE8E4AC032F9E05D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MixedArcExample;
+			productName = MixedArcExample;
+			productReference = 7951F2A3C4318C92C0962AA4 /* MixedArcExample.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F62C5AE295A2F9CF7E48346E /* Pods-MixedArcExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 079D6BDB3602C9567E3FA330 /* Build configuration list for PBXNativeTarget "Pods-MixedArcExample" */;
+			buildPhases = (
+				8BD7098F9803510832E3BA75 /* Sources */,
+				7F75A9CF878CFD0791EFAADF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				132D386DA5EA937184AF7FD7 /* PBXTargetDependency */,
+			);
+			name = "Pods-MixedArcExample";
+			productName = "Pods-MixedArcExample";
+			productReference = 88830A7C61EC1A558E5B4909 /* libPods-MixedArcExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1332300C4E09CCCCF66E352D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = BD2DEAC8B38386F4B4253D39 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D10DC449E28C234A9EF94FE;
+			productRefGroup = 98CCA676DF49C45F8127BD80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E492FC6096ECECE512C8836E /* MixedArcExample */,
+				F62C5AE295A2F9CF7E48346E /* Pods-MixedArcExample */,
+				AF7951A31970ABFA22650799 /* Pods-MixedArcExample-MixedArcExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27D7E1A5EE8E4AC032F9E05D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CFF4909B6E46F1561179EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3878914D9A9BC7E234054B /* Pods-MixedArcExample-MixedArcExample-dummy.m in Sources */,
+				B1D3FCCDFFD615C2FD88B865 /* SEGArc.m in Sources */,
+				4D045BEE1AB4072EB6DA6EB5 /* SEGNoArc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD7098F9803510832E3BA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E614C87B892314323E62EC /* Pods-MixedArcExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7839A5FB998C98DB063A8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		132D386DA5EA937184AF7FD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MixedArcExample-MixedArcExample";
+			target = AF7951A31970ABFA22650799 /* Pods-MixedArcExample-MixedArcExample */;
+			targetProxy = F6456402037C19BC41459133 /* PBXContainerItemProxy */;
+		};
+		C3CF814198A8624A2883288E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MixedArcExample;
+			target = E492FC6096ECECE512C8836E /* MixedArcExample */;
+			targetProxy = ABE848F0C7FA474D878EFD12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04591B1BB2CDEC33A649C8A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		170BA486CE59C324348C751B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3D362E326410CDB609666EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0794D5815A1C66201953582E /* Pods-MixedArcExample-MixedArcExample-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MixedArcExample-MixedArcExample/Pods-MixedArcExample-MixedArcExample-prefix.pch";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41624127A1326A101B76FD8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316914D0C11B38144F74DDBC /* Pods-MixedArcExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CDD90E9AB0C4D6B4C6E348E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D2C6308EABCF8C0D0DC018C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		B533690922F6487C3FD0EC04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5BA7B23BEE0277251ED095 /* Pods-MixedArcExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F273F4B65817884806CD696A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0794D5815A1C66201953582E /* Pods-MixedArcExample-MixedArcExample-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MixedArcExample-MixedArcExample/Pods-MixedArcExample-MixedArcExample-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		079D6BDB3602C9567E3FA330 /* Build configuration list for PBXNativeTarget "Pods-MixedArcExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B533690922F6487C3FD0EC04 /* Debug */,
+				41624127A1326A101B76FD8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98368EF6B1A8949EAA2D63D8 /* Build configuration list for PBXNativeTarget "MixedArcExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04591B1BB2CDEC33A649C8A4 /* Debug */,
+				170BA486CE59C324348C751B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF54421E13E1D50F370DEAC0 /* Build configuration list for PBXNativeTarget "Pods-MixedArcExample-MixedArcExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F273F4B65817884806CD696A /* Debug */,
+				3D362E326410CDB609666EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2DEAC8B38386F4B4253D39 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2C6308EABCF8C0D0DC018C /* Debug */,
+				4CDD90E9AB0C4D6B4C6E348E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1332300C4E09CCCCF66E352D /* Project object */;
+}

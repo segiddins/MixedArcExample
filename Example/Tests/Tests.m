@@ -6,4 +6,20 @@
 //  Copyright (c) 2014 Samuel E. Giddins. All rights reserved.
 //
 
-${TEST_EXAMPLE}
+@import XCTest;
+
+#import <MixedArcExample/SEGArc.h>
+#import <MixedArcExample/SEGNoArc.h>
+
+@interface Test : XCTestCase
+
+@end
+
+@implementation Test
+
+- (void)testThings {
+    XCTAssertEqualObjects([[SEGArc alloc] init].string, @"Hello");
+    XCTAssertEqualObjects([[SEGNoArc alloc] init].string, @"Hello");
+}
+
+@end

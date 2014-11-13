@@ -1,0 +1,14 @@
+PODS:
+  - MixedArcExample (0.1.0)
+
+DEPENDENCIES:
+  - MixedArcExample (from `../`)
+
+EXTERNAL SOURCES:
+  MixedArcExample:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MixedArcExample: 179679226ded3feceaf68380b7f3b1e1501b1f43
+
+COCOAPODS: 0.35.0.rc2
